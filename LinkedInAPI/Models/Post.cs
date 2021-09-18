@@ -9,7 +9,8 @@ namespace LinkedInAPI.Models
     {
         public int Id { get; set; }
         public string Text { get; set; }
-        public int Likes { get; set; }
+        public string ImgBase64 { get; set; }
+        //public int Likes { get; set; }
         public string Comments { get; set; }
         public DateTime? PostDateTime { get; set; }
         public List<Comment> PostComments { get; set; } = new List<Comment>();
